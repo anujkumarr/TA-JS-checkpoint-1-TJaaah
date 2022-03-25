@@ -1,11 +1,12 @@
 1. Using loops take 10 inputs from user and find the average of all the numbers.
 
 ```JS
-let sum = 0;
-for(let i = 0; i <= 10; i++){
- sum += i/10
+let avg = 0;
+for(let i = 1; i <= 10; i++){
+    let input = +prompt("Enter any number");
+    avg+=input;
 } 
-console.log (sum)
+console.log(avg/10)
 ```
 
 2. What will be the output of the code below
